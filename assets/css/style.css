@@ -1,0 +1,52 @@
+/* Global */
+
+@font-face{
+    font-family:'TitilliumWeb-SemiBold'; 
+    src: url('../font/TitilliumWeb-SemiBold.ttf'); 
+}
+
+.text-TitilliumWeb{
+    font-family: TitilliumWeb-SemiBold;
+}
+
+.center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-simple {
+    display: flex;
+    align-items: center;
+}
+
+
+/* index.html */
+
+.icon-search{
+    height: 4rem ;
+}
+
+.row-margin-logo {
+    margin-top: 10rem;
+    margin-bottom : 1rem;
+}
+
+.row-margin-title {
+    margin-bottom : 1rem;
+}
+
+/*.file-border{
+    border: 2px solid black;
+}*/
+
+/* traitement.php */
+
+.row-height {
+    height: 30rem;
+}
+
+.img-size {
+    height: 22rem;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les données EXIF de votre image</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container-fluid text-TitilliumWeb">
+        <div class="row row-margin-logo">
+            <div class="col-sm center-center">
+                <img class="icon-search" src="assets/image/search.svg">
+            </div>
+        </div>
+        <div class="row row-margin-title">
+            <div class="col-sm center-center">
+                <h4>Récupérez les données EXIF de votre image</h4>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm center-center">
+                <form enctype="multipart/form-data" action="traitement.php" method="post">
+                    <div class="form-group">
+                        <input type="file" class="form-control-file" id="votre_image" name="votre_image" accept="image/*" required>
+                    </div>
+                    <div class="center-center">
+                        <div class="form-group">
+                            <button type="submit" id="donnees_EXIF" class="btn btn-outline-dark">
+                                <i class="fas fa-cog"></i> Obtenez les données EXIF !
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.bundle.js"></script>
+<script src="assets/fontawesome/js/all.min.js"></script>
+</body>
+</html>
